@@ -1,0 +1,31 @@
+% Select the base color of the presentation in the following line
+\newcommand{\HSBthemecolor}{blau-türkis}
+
+% Select the organisation for the presentation in the following line
+\newcommand{\HSBorganisation}{HSB}
+
+\newcommand{\backgroundImagePath}{backgrounds/sunset2.jpg}
+\newcommand{\headlineImagePath}{backgrounds/headline4}
+\newcommand{\anrLogo}{logos/anr.pdf}
+\newcommand{\CPTLogo}{logos/CPTlogo_transparent}
+\newcommand{\CNRSLogo}{logos/LOGO_CNRS_BLEU}
+
+\setbeamerfont{title}{size=\Large, series=\bf,}
+\setbeamerfont{subtitle}{size=\large}
+
+\definecolor{CPTorange}{HTML}{F89404}
+\definecolor{CPTbleu}{HTML}{0477BF}
+\colorlet{PrimaryColor}{CPTbleu} % primary color (blue)
+\colorlet{SecondaryColor}{CPTorange} % bulleted lists
+
+\setbeamercolor{normal text}{fg=PrimaryColor}
+\setbeamercolor{frametitle}{fg=PrimaryColor}
+\setbeamerfont{frametitle}{size=\normalsize}
+\setbeamerfont{framesubtitle}{size=\small}
+\setbeamercolor{itemize item}{fg=SecondaryColor}
+\setbeamercolor{itemize subitem}{fg=SecondaryColor}
+\setbeamercolor{section in toc}{fg=white}
+\setbeamercolor{subsection in toc}{fg=white}
+\setbeamercolor{enumerate item}{fg=SecondaryColor}
+\setbeamercolor{enumerate subitem}{fg=SecondaryColor}
+
